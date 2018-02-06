@@ -2,4 +2,6 @@
 node_modules
 
 # Styles compilation output
-/.test/styles
+/.test/stylesa
+
+/vendor
