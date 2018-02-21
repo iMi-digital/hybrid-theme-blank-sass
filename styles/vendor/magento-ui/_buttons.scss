@@ -12,6 +12,7 @@
     $_button-font-weight                 : $button__font-weight,
     $_button-cursor                      : $button__cursor,
     $_button-display                     : $button__display,
+	$_button-border-radius               : $button__border-radius,
     $_button-disabled-opacity            : $button__disabled__opacity,
     $_button-line-height                 : $button__line-height,
     $_button-width                       : $button__width,
@@ -59,6 +60,7 @@
         $_button-gradient
     );
     @include lib-css(border, $_button-border);
+    @include lib-css(border-radius, $_button-border-radius);
     @include lib-css(color, $_button-color);
     @include lib-css(cursor, $_button-cursor);
     @include lib-css(display, $_button-display);
